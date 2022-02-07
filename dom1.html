@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom pagination task </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+<body>
+    <div class="answer box">
+        <div class="jumbo">
+            <h1>Pagination Task</h1>
+            <div id="displayArea" class="anSpace">
+                <p class="text-center">Page<span id="currentPage"class="link"></span>/<span id="totalPages"></span></span></p>
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody id="body">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="anSpace">
+                <div class="page-btns" id="pageBtns"></div>
+                <div class="d-flex">
+                    <button class="btn btn-dark" id="first">first</button>
+                    <button class="btn btn-dark" id="prev">prev</button>
+                    <button class="btn btn-dark" id="last">last</button>
+                    <button class="btn btn-dark" id="next">next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src = "pagination2.js"></script>
+</body>
+</html>
